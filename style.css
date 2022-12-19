@@ -2,6 +2,13 @@
 html {
     font-size : 62.5%;  
 }
+p {
+  border: 2px solid black;
+  outline: #4CAF50 solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+}
 
 header {
     margin: 0 4rem;
@@ -18,11 +25,27 @@ header {
 }
 
 body {
-    background-color: #A1B57D  ;
-    color: #E6B325;
+    background-color: #5F8D4E   ;
+    color: #C21010 ;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
 }
+
+ h1 { 
+        font-size : 3.0rem
+ } 
+ 
+ h2 {
+     font-size : 2.0rem;
+ }
+ 
+ h3 {
+     font-size : 1.8rem;
+ }
+ 
+ h4 {
+     font-size : 1.5rem;
+ }
 
 cite {
     font-size:2rem;
@@ -37,17 +60,38 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5rem 4rem;
+    margin: 2rem 2rem;
 }
 
 .imageCard img {
-    width: 100%;
+    width: 50%;
     height: auto;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
 }
 
 .imageCard a {
     text-decoration: none;
-    color: #F9F9F9;
+    color: #C21010 ;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.gallery {
+    padding: 2rem;
+}
+
+.gallery img {
+    border-radius: 5rem;
+    box-shadow: 5px 5px #000;
+    width: 60%;
+    height: 60%;
 }
